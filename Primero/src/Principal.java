@@ -4,7 +4,7 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int numero = 0;
+		int numero = 67;
 		double decimal =  5.8;
 String palabra = "askjas";
 char caracter = '@';
@@ -22,6 +22,8 @@ case 1: System.out.println("SOY uno");
 break;
 case 2: System.out.println("SOY dos");
 break;
+default:System.out.println("SOY otro");
+
 }
 if(numero > 0) {
 	System.out.println("el numero es mayor  que cero");
